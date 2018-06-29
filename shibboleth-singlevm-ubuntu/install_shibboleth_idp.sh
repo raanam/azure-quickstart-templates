@@ -39,7 +39,7 @@ SCOPE=$(hostname -f)
 cd /usr/share
 
 # install Shibboleth
-wget http://shibboleth.net/downloads/identity-provider/3.3.2/shibboleth-identity-provider-3.3.2.zip -O shibboleth.zip
+wget https://shibboleth.net/downloads/identity-provider/latest/shibboleth-identity-provider-3.3.2.zip -O shibboleth.zip
 unzip shibboleth.zip
 
 cd shibboleth-identity-provider-3.3.2
